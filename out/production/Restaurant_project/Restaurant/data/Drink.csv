@@ -1,0 +1,4 @@
+name, price, cost, initialAmount, timeRequired, minAmount, foodID
+Ayran, 20, 10, 30, 00:00:01, 10, 021
+Lemonade, 30, 15, 30, 00:00:01, 10, 022
+Cola, 30, 20, 30, 00:00:01, 10, 023

@@ -66,12 +66,12 @@ public class Manager extends Employee {
 
     @Override
     public void menu(Database database, Employee employee) {
-        System.out.println("0. Restaurant.Exit");
-        System.out.println("1. Restaurant.Hire");
-        System.out.println("2. Restaurant.Fire");
+        System.out.println("0. Exit");
+        System.out.println("1. Hire");
+        System.out.println("2. Fire");
         System.out.println("3. Salary Update");
         System.out.println("4. Z Report");
-        System.out.println("5. Restaurant.Restock");
+        System.out.println("5. Restock");
         System.out.println("6. Update Menu");
     }
 }

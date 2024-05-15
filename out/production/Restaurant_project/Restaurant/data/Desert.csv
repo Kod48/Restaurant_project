@@ -1,0 +1,4 @@
+name, price, cost, initialAmount, timeRequired, minAmount, foodID
+baklava, 80, 30, 20, 00:00:04, 5, 031
+sebastian, 90, 40, 20, 00:00:04, 5, 032
+kunefe, 70, 30, 00:00:04, 5, 033

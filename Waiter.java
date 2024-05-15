@@ -54,12 +54,12 @@ public class Waiter extends Employee {
     }
 
     public void menu(Database database, Employee employee) {
-        System.out.println("0. Restaurant.Exit");
+        System.out.println("0. Exit");
         System.out.println("1. Choose Restaurant.Table");
         System.out.println("2. Take Order");
         System.out.println("3. Delete Order");
         System.out.println("4. List Order");
-        System.out.println("5. Restaurant.Serve");
+        System.out.println("5. Serve");
 
         Scanner s =new Scanner(System.in);
         int n= s.nextInt();
