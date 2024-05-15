@@ -15,7 +15,7 @@ public class Main {
 
         int num;
 //		do{
-        System.out.println("0. Restaurant.Exit\n1. Login"); //login yaptığımızda ne olduğumuza sistem mi karar veriyor yoksa biz mi seçiyoruz
+        System.out.println("0.Exit\n1. Login"); //login yaptığımızda ne olduğumuza sistem mi karar veriyor yoksa biz mi seçiyoruz
 // bence login ekranı ardından nereye aitsek oraya yönlendirmesi daha mantıklı
         num = scanner.nextInt();
 

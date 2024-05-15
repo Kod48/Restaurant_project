@@ -2,8 +2,8 @@ package Restaurant;
 
 public class Chef extends Employee {
 
-    public Chef(String name) {
-        super(name);
+    public Chef(String nameSurname) {
+        super(nameSurname);
         this.operations=new IOOperation[]{
                 new Exit(),
                 new ListOrder(),
@@ -11,8 +11,9 @@ public class Chef extends Employee {
         };
     }
 
-    public Chef(String name, String surname) {
-        super(name, surname);
+
+    public Chef(String nameSurname, String ID) {
+        super(nameSurname, ID);
         this.operations=new IOOperation[]{
                 new Exit(),
                 new ListOrder(),
@@ -20,8 +21,8 @@ public class Chef extends Employee {
         };
     }
 
-    public Chef(String name, String surname, String ID) {
-        super(name, surname, ID);
+    public Chef(String nameSurname, String ID, String position) {
+        super(nameSurname, ID, position);
         this.operations=new IOOperation[]{
                 new Exit(),
                 new ListOrder(),
@@ -29,17 +30,8 @@ public class Chef extends Employee {
         };
     }
 
-    public Chef(String name, String surname, String ID, String position) {
-        super(name, surname, ID, position);
-        this.operations=new IOOperation[]{
-                new Exit(),
-                new ListOrder(),
-                new PrepareOrder()
-        };
-    }
-
-    public Chef(String name, String surname, String ID, String position, String salary) {
-        super(name, surname, ID, position, salary);
+    public Chef(String nameSurname, String ID, String position, String salary) {
+        super(nameSurname, ID, position, salary);
         this.operations=new IOOperation[]{
                 new Exit(),
                 new ListOrder(),
@@ -49,7 +41,7 @@ public class Chef extends Employee {
 
     @Override
     public String toString() {
-        return name+ "<N/>" +surname+ "<N/>" +ID+ "<N/>" +position+ "<N/>" +salary;
+        return nameSurname+"<N/>" +ID+ "<N/>" +position+ "<N/>" +salary;
     }
 
     @Override

@@ -1,0 +1,4 @@
+name, price, cost, initialAmount, timeRequired, minAmount, foodID
+Doner, 100, 50, 20, 00:00:05, 5, 011
+Meatball, 150, 50, 20, 00:00:04, 5, 012
+Tantuni, 90, 40, 20, 00:00:05, 5, 013

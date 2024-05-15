@@ -16,7 +16,7 @@ public class Database {
     public int login(String name, String surname, String ID) { //returns a number
         int n = -1; // eşleşme bulamazsa -1
         for(Employee s: employees) { // name ve surname'i almasak
-            if ((s.getName().matches(name) && s.getSurname().matches(surname)) && s.getID().matches(ID)){
+            if (s.getNameSurname().matches(name) && s.getID().matches(ID)){
                 n = employees.indexOf(s);// userları tutan arraylistte kaçıncı userda eşleşme buldu
                 break;
             }
